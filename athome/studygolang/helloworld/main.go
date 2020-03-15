@@ -12,5 +12,5 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome Golang!")
+	fmt.Fprintf(w, "Welcome to Golang!")
 }
